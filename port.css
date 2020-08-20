@@ -429,10 +429,11 @@ section.work .card-wrapper  .cal{
 }
 
 section.work {
-  background-color: var(--pure);
-  background-image: url("images\\projects.jpg");
-  background-attachment: fixed;
+    background-color: var(--pure);
+  background: url("images\\projects.jpg") no-repeat center;
+
   background-size: cover;
+  background-position: center;
   
 }
 section.work p{
