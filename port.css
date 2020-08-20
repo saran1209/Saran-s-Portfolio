@@ -622,7 +622,12 @@ section.Available{
 
   }
 }
-@media (max-width:576px) {
+@media  only screen
+    and (min-device-width: 375px)
+    and (min-device-height: 812px)
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait)
+    and (max-width:576px) {
 
 .site-main-wrapper{
   overflow-x: hidden;
