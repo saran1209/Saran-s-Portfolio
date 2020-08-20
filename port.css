@@ -655,9 +655,11 @@ section.Available{
   text-align: center;
 }
 
-
+section.About h2{
+  font-size: 1.5rem;
+}
 section.About h3{
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 section.About .para {
   font-size: 0.8rem;
