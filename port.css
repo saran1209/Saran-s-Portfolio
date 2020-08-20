@@ -344,7 +344,10 @@ height: 250px;
   margin-bottom: 2rem;
   object-fit: cover;
 }
+section.About .edu ul li span {
+    font-size: 0.8rem;
 
+}
 
 section.skills .slider .slide{
   text-align: center;
