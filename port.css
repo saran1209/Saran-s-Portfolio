@@ -430,6 +430,7 @@ section.work {
   background-image: url("images\\projects.jpg");
   background-attachment: fixed;
   background-size: cover;
+  
 }
 section.work p{
   color: var(--pure);
@@ -678,7 +679,7 @@ section.About .edu ul li{
     list-style: none;
 }
 section.About .edu ul li span{
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   text-align: center;
 
 }
