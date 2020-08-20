@@ -10,13 +10,15 @@
 }
 body{
   font-family: 'Poppins', sans-serif;
-  overflow-x:hidden;
+
+
 }
 *{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   --webkit-font-smotthing:antiialised;
+
 }
 
 html{
@@ -331,7 +333,9 @@ section.Available p{
   font-family: 'Lato',sans-serif;
 
 }
-
+section.skills .slider .slide p {
+    text-align: center;
+}
 section.skills .slider .slide img{
 
   border-radius:50%
@@ -620,8 +624,15 @@ section.Available{
 }
 @media (max-width:576px) {
 
+.site-main-wrapper{
+  overflow-x: hidden;
+}
   .hero{
     flex-direction: column;
+  }
+  section.Expereince .card-wrapper .card img{
+    align-items: center;
+    justify-content: center;
   }
   header{
     clip-path: polygon(0 0, 100% 0, 100% 100%,69% 96%, 0 100%);
@@ -663,6 +674,9 @@ section.About .edu ul li span{
   font-size: 0.8rem;
   text-align: center;
 
+}
+section.skills .slider .slide img{
+  height: 200px;
 }
 section.About .right .social a {
   justify-content: center;
