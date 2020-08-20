@@ -294,6 +294,7 @@ section.Expereince .card-wrapper{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-column-gap: 10rem;
+  grid-row-gap: 4rem;
 }
 
 section.Expereince .card-wrapper .card img{
