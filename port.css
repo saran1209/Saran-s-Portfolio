@@ -209,18 +209,7 @@ section.About p{
 
 
 }
-section.work .card-wrapper  .netflix{
-  position: relative;
-  width: 280px;
-  height: 320px;
-  text-align: center;
-  overflow: hidden;
-  background: url("images\\netflix.jpg") no-repeat;
-  background-position: center;
-  background-size: cover;
-  border-radius: 20px;
-  box-shadow:0 0 20px rgba(0, 0, 0, .5);
-}
+
 section.About .edu li {
   margin-bottom: 1.6rem;
 }
@@ -441,7 +430,18 @@ section.work .card-wrapper  .cal{
   border-radius: 20px;
   box-shadow:0 0 20px rgba(0, 0, 0, .5);
 }
-
+section.work .card-wrapper  .netflix{
+  position: relative;
+  width: 280px;
+  height: 320px;
+  text-align: center;
+  overflow: hidden;
+  background: url("images\\netflix.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow:0 0 20px rgba(0, 0, 0, .5);
+}
 section.work {
     background-color: var(--pure);
   background: url("images\\projects.jpg") no-repeat center;
