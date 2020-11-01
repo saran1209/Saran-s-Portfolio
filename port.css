@@ -209,13 +209,13 @@ section.About p{
 
 
 }
-section.work .card-wrapper .c  .netflix{
+section.work .card-wrapper  .netflix{
   position: relative;
   width: 280px;
   height: 320px;
   text-align: center;
   overflow: hidden;
-  background: url("images\netflix.jpg") no-repeat;
+  background: url('https://cdn.vox-cdn.com/thumbor/lfpXTYMyJpDlMevYNh0PfJu3M6Q=/39x0:3111x2048/920x613/filters:focal(39x0:3111x2048):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/49901753/netflixlogo.0.0.png') no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 20px;
