@@ -215,7 +215,7 @@ section.work .card-wrapper  .netflix{
   height: 320px;
   text-align: center;
   overflow: hidden;
-  background: url('images\\netflix.jpg') no-repeat;
+  background: url("images\netflix.jpg") no-repeat;
   background-position: center;
   background-size: cover;
   border-radius: 20px;
